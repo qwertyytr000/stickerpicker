@@ -1,3 +1,23 @@
+To add the stickers just follow this tutorial: https://invidio.xamh.de/Yz3H6KJTEI0?t=442
+
+here is the completed json request:
+
+```json
+{
+	"stickerpicker": {
+		"content": {
+			"type": "m.stickerpicker",
+			"url": "https://qwertyytr000.github.io/stickerpicker/web/?theme=$theme",
+			"name": "Stickerpicker",
+			"data": {}
+		},
+		"sender": "@you:picker.url",
+		"state_key": "stickerpicker",
+		"id": "stickerpicker"
+	}
+}
+```
+
 # Maunium sticker picker
 A fast and simple Matrix sticker picker widget. Tested on Element Web, Android & iOS.
 
